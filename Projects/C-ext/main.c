@@ -9,11 +9,13 @@ int main(int argc, char *argv[]){
                     fclose(fptr);
             }
         }
-        else {
+/*        else {
             fptr = fopen(argv[1], "w");
             fprintf(fptr, "This file already exists");
+            printf("This already exists");
             fclose(fptr);
         }
+        */
     }
     return 0;
 }
