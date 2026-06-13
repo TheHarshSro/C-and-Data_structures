@@ -4,6 +4,8 @@
 int main() {
     int h, m;
     int converted;
+    printf("\n");
+    printf("\tSchedule\n");
     printf("Departure time\tArrival time\n");
     printf("8:00 a.m\t10:16 a.m\n");
     printf("9:43 a.m\t11:52 a.m\n");
